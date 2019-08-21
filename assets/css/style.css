@@ -1,0 +1,141 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #011526;
+  }
+.header{
+  z-index: 6;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-block-end: 50px;
+  width: 100%;
+  background-color: lightgrey;
+  border-bottom: 3px solid #011526;
+
+
+}  
+#name{
+  color: 27069e;
+ background-color:  white;
+  z-index: 5;
+  box-sizing: border-box;
+  position: absolute;
+  display: inline;
+  padding: 5px 10px;
+  top: 0;
+  bottom: 0;
+  margin: 0px 0px 0px 150px;
+}
+#links{
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 5;
+  display: inline;
+  margin: 0px 0px 0px 850px;
+  background-color: lightgrey;
+}  
+h3:hover  {
+  color: #27069e;
+}
+h1{
+  float: left;
+  z-index: 6;
+  width: 100%;
+  line-height: 40px;
+} 
+ h3{
+   color: #012340;
+  float: right;
+  padding: 0px 10px;
+  margin: 0px 15px 0px 0px;
+  background-color: lightgrey;
+  z-index: 6;
+  } 
+  .footer {
+    z-index: 6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   background-color: white;  
+    color: #012340;
+    font-weight: bold;
+    text-align: center;
+    border-top: 3px solid #011526;
+ }
+ .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: #012340;
+}
+.images{
+  float: left;
+}
+.btn:hover  {
+  background: #011526;
+  color: white;
+}
+  .aboutme,.contact,.portfolio{
+  font-weight: bold;
+  margin: 150px;
+  padding: 0px 20px;
+  padding-block-end: 20px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ h3:active{
+   color: #012340;
+ }
+ .links:hover{
+  color: white;
+}
+ h2{
+  padding-block-start: 20px;
+  background-color: white;
+  border-bottom: 3px solid #011526; ;
+ }
+ img{
+   padding-block-end: 0px;
+ }
+ p{
+  padding: 30px 0;
+  margin: 0px 10px;
+  text-align: center;
+  padding-block-end: 1px;
+}
+body {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  float: left;
+  padding: 0px 35px 0px 0px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container{
+  width: 300px;
+  padding-top: 20px;
+}
+.caption{
+  text-align: center;
+  color: white;
+  background-color: #011526;
+z-index: 3;
+position: absolute;
+font-size: 20px;
+width: 300px;
+bottom: 0px;
+}
